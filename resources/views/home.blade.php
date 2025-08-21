@@ -7,5 +7,6 @@
 @section('mainPopupPayload', 'Главная страница (' . url()->current() . ')') --}}
 
 @section('content')
-<h1>HOME PAGE</h1>
+<h1>@lang('home.title')</h1>
 @endsection
+
