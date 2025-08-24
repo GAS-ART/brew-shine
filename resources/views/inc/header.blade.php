@@ -54,8 +54,7 @@
                @endphp
 
                <a href="{{ $url }}" class="lang-link" rel="alternate" hreflang="{{ $code }}" title="{{ $label }}">
-                     {{-- Можно заменить emoji на <img src="{{ asset('images/flags/'.$code.'.svg') }}"> --}}
-                     @if($code === 'ru') 🇷🇺 @elseif($code === 'ro') 🇲🇩 @else 🇬🇧 @endif
+                     <img src="{{ asset('img/flags/'.$code.'.svg') }}">
                      <span class="sr-only">{{ $label }}</span>
                </a>
             @endforeach
