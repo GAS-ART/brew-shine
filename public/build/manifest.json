@@ -8,15 +8,23 @@
     ]
   },
   "resources/css/hero.css": {
-    "file": "assets/hero-7QE_0sEp.css",
+    "file": "assets/hero-CgmdI3lQ.css",
     "src": "resources/css/hero.css",
     "isEntry": true,
     "names": [
       "hero.css"
     ]
   },
+  "resources/css/results.css": {
+    "file": "assets/results-CEIXXyfA.css",
+    "src": "resources/css/results.css",
+    "isEntry": true,
+    "names": [
+      "results.css"
+    ]
+  },
   "resources/js/app.js": {
-    "file": "assets/app-BmcZXRFR.js",
+    "file": "assets/app-CDZCZ2mi.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true

@@ -56,3 +56,15 @@ if (popup && popupClose && orderBtn) {
 });
 
 
+//Results section
+document.querySelectorAll('.compare').forEach(compare => {
+    const before = compare.querySelector('.compare-before');
+    const slider = compare.querySelector('.compare-slider');
+
+    slider.addEventListener('input', e => {
+        const val = e.target.value;
+        before.style.clipPath = `inset(0 ${100 - val}% 0 0)`;
+    });
+});
+
+

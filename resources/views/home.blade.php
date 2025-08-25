@@ -28,7 +28,11 @@
           <div class="phone-block">
             <div class="phone">
               <span class="phone-icon">📞</span>
-              <a href="tel:+37360123456">+373 (60) 123 456</a>
+              <a href="tel:@lang('contacts.phone1_href')">@lang('contacts.phone1')</a>
+            </div>
+            <div class="phone">
+              <span class="phone-icon">📞</span>
+              <a href="tel:@lang('contacts.phone2_href')">@lang('contacts.phone2')</a>
             </div>
             <p class="consult">@lang('home.hero.consult')</p>
           </div>
@@ -37,6 +41,52 @@
     </div>
   </div>
 </section>
+
+<section class="results">
+    <div class="container">
+        <h2 class="results-title">@lang('home.results.title')</h2>
+        
+        <div class="compare-list">
+            <!-- Один элемент (до/после) -->
+            <div class="compare-item">
+                <div class="compare">
+                    <img src="img/results/before1.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/after1.jpg" alt="Диван после чистки" class="compare-after">
+                    <input type="range" min="0" max="100" value="50" class="compare-slider">
+                </div>
+            </div>
+
+            <div class="compare-item">
+                <div class="compare">
+                    <img src="img/results/before2.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/after2.jpg" alt="Диван после чистки" class="compare-after">
+                    <input type="range" min="0" max="100" value="50" class="compare-slider">
+                </div>
+            </div>
+
+
+            <div class="compare-item">
+                <div class="compare">
+                    <img src="img/results/before1.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/after1.jpg" alt="Диван после чистки" class="compare-after">
+                    <input type="range" min="0" max="100" value="50" class="compare-slider">
+                </div>
+            </div>
+
+            <div class="compare-item">
+                <div class="compare">
+                    <img src="img/results/before2.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/after2.jpg" alt="Диван после чистки" class="compare-after">
+                    <input type="range" min="0" max="100" value="50" class="compare-slider">
+                </div>
+            </div>
+            
+
+            <!-- Добавь аналогично еще 7–10 штук -->
+        </div>
+    </div>
+</section>
+
 
 @endsection
 
