@@ -1,0 +1,63 @@
+.benefits {
+    padding: 60px 20px;
+    background: #111; /* можно заменить на свой фон */
+    color: #fff;
+    text-align: center;
+}
+
+.benefits-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #d4af37; /* золотистый акцент */
+}
+
+.benefits-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.benefit-item:hover {
+    transform: translateY(-5px);
+}
+
+.benefit-icon {
+    font-size: 2rem;
+    margin-right: 15px;
+    flex-shrink: 0;
+}
+
+.benefit-item p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #eee;
+}
+
+/* 📱 Мобильные */
+@media (max-width: 768px) {
+    .benefits {
+        text-align: left;
+    }
+
+    .benefit-item {
+        flex-direction: row;
+    }
+}

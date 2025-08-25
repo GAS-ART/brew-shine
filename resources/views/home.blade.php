@@ -42,6 +42,37 @@
   </div>
 </section>
 
+<section class="benefits">
+    <div class="container">
+        <h2 class="benefits-title">@lang('home.benefits.title')</h2>
+        <p class="benefits-subtitle">@lang('home.benefits.subtitle')</p>
+
+        <div class="benefits-grid">
+            <div class="benefit-item">
+                <span class="benefit-icon">🧼</span>
+                <p>@lang('home.benefits.items.1')</p>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-icon">🧴</span>
+                <p>@lang('home.benefits.items.2')</p>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-icon">⏱</span>
+                <p>@lang('home.benefits.items.3')</p>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-icon">💯</span>
+                <p>@lang('home.benefits.items.4')</p>
+            </div>
+            <div class="benefit-item">
+                <span class="benefit-icon">🚗</span>
+                <p>@lang('home.benefits.items.5')</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section class="results">
     <div class="container">
         <h2 class="results-title">@lang('home.results.title')</h2>
@@ -54,6 +85,7 @@
                     <img src="img/results/after1.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
+                <p class="compare-caption">@lang('home.results.captions.1')</p>
             </div>
 
             <div class="compare-item">
@@ -62,6 +94,7 @@
                     <img src="img/results/after2.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
+                <p class="compare-caption">@lang('home.results.captions.1')</p>
             </div>
 
 
@@ -71,6 +104,7 @@
                     <img src="img/results/after1.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
+                <p class="compare-caption">@lang('home.results.captions.1')</p>
             </div>
 
             <div class="compare-item">
@@ -79,10 +113,11 @@
                     <img src="img/results/after2.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
+                <p class="compare-caption">@lang('home.results.captions.1')</p>
             </div>
             
 
-            <!-- Добавь аналогично еще 7–10 штук -->
+            <!-- Добавь аналогично еще несколько штук -->
         </div>
     </div>
 </section>
