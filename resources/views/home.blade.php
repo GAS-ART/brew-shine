@@ -122,6 +122,49 @@
     </div>
 </section>
 
+<section class="steps">
+    <div class="container">
+        <h2 class="steps-title">@lang('home.steps.title')</h2>
+        <p class="steps-subtitle">@lang('home.steps.subtitle')</p>
+
+        <div class="steps-grid">
+            <div class="step-item">
+                <div class="step-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <p>@lang('home.steps.items.1')</p>
+            </div>
+
+            <div class="step-arrow">➝</div>
+
+            <div class="step-item">
+                <div class="step-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <p>@lang('home.steps.items.2')</p>
+            </div>
+
+            <div class="step-arrow">➝</div>
+
+            <div class="step-item">
+                <div class="step-icon">
+                    <i class="fas fa-spray-can"></i>
+                </div>
+                <p>@lang('home.steps.items.3')</p>
+            </div>
+
+            <div class="step-arrow">➝</div>
+
+            <div class="step-item">
+                <div class="step-icon">
+                    <i class="fas fa-couch"></i>
+                </div>
+                <p>@lang('home.steps.items.4')</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 @endsection
 

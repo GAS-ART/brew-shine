@@ -28,4 +28,14 @@ return [
                         '5' => 'Deplasare în ziua comenzii în Chișinău și suburbii.',
                 ],
         ],
+        'steps' => [
+                'title' => 'Cum lucrăm',
+                'subtitle' => 'Cum să comandați curățarea chimică a mobilei în Chișinău',
+                'items' => [
+                        '1' => 'Cerere sau apel — descrieți mobilierul și gradul de murdărie.',
+                        '2' => 'Sosirea meșterului la o oră convenabilă.',
+                        '3' => 'Curățarea chimică a mobilei cu echipament modern.',
+                        '4' => 'Rezultat — mobilier proaspăt și curat, fără pete și miros.',
+                ],
+        ],
 ];

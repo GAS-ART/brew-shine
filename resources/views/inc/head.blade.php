@@ -19,11 +19,15 @@
         <meta property="og:description" content="@yield('ogDescription')" />
         <meta property="og:site_name" content="service-chisto.com.ua" />
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
          @vite([
             'resources/css/app.css', 
             'resources/css/hero.css',
             'resources/css/benefits.css',
             'resources/css/results.css',
+            'resources/css/steps.css',
             'resources/js/app.js'
             ])
     </head>

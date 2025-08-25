@@ -31,6 +31,14 @@
       "results.css"
     ]
   },
+  "resources/css/steps.css": {
+    "file": "assets/steps-IwS42Eeq.css",
+    "src": "resources/css/steps.css",
+    "isEntry": true,
+    "names": [
+      "steps.css"
+    ]
+  },
   "resources/js/app.js": {
     "file": "assets/app-CDZCZ2mi.js",
     "name": "app",

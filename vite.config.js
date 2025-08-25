@@ -10,6 +10,7 @@ export default defineConfig({
                 'resources/css/hero.css',
                 'resources/css/benefits.css',
                 'resources/css/results.css',
+                'resources/css/steps.css',
                 'resources/js/app.js'],
             refresh: true,
         }),

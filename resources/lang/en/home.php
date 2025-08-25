@@ -27,4 +27,14 @@ return [
                         '5' => 'Same-day service in Chișinău and the surrounding areas.',
                 ],
         ],
+        'steps' => [
+                'title' => 'How We Work',
+                'subtitle' => 'How to order furniture dry cleaning in Chișinău',
+                'items' => [
+                        '1' => 'Request or call — you describe the furniture and the dirt.',
+                        '2' => 'A technician arrives at a convenient time.',
+                        '3' => 'Dry cleaning of furniture with modern equipment.',
+                        '4' => 'The result — fresh and clean furniture without stains or odors.',
+                ],
+        ],
 ];
