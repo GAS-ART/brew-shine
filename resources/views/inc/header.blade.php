@@ -62,7 +62,7 @@
 
         <!-- Кнопка заказа (видна и на ПК и на мобилке) -->
         <div class="header-btn popup-btn">
-            <a href="#order" class="btn">Заказать чистку</a>
+            <a href="#order" class="btn">@lang('header.button')</a>
         </div>
     </div>
 
