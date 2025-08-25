@@ -19,6 +19,9 @@
         <meta property="og:description" content="@yield('ogDescription')" />
         <meta property="og:site_name" content="service-chisto.com.ua" />
 
-         @vite(['resources/css/app.css', 'resources/js/app.js'])
-
+         @vite([
+            'resources/css/app.css', 
+            'resources/css/hero.css',  
+            'resources/js/app.js'
+            ])
     </head>

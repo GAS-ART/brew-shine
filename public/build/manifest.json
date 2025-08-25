@@ -1,14 +1,22 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-DTckO_i5.css",
+    "file": "assets/app-D7BB4Acl.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "names": [
       "app.css"
     ]
   },
+  "resources/css/hero.css": {
+    "file": "assets/hero-mJ0UAuJF.css",
+    "src": "resources/css/hero.css",
+    "isEntry": true,
+    "names": [
+      "hero.css"
+    ]
+  },
   "resources/js/app.js": {
-    "file": "assets/app-BBoQj8nG.js",
+    "file": "assets/app-BmcZXRFR.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true

@@ -32,7 +32,8 @@ main.page {
     background-color: #000;
     padding: 12px 0;
     border-bottom: 1px solid #222;
-    position: relative;
+    position: fixed;
+    width: 100%;
     z-index: 1100;
 }
 
@@ -308,4 +309,5 @@ main.page { flex:1; }
 .footer-socials a:hover {
     color: #fff;
 }   
+
 

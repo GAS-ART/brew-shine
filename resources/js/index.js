@@ -34,8 +34,9 @@ if (burger && sideNav) {
 //Popup
 const popup = document.getElementById("popup");
 const popupClose = document.getElementById("popupClose");
-const orderBtn = document.querySelector(".header-btn .btn");
+const orderBtns = document.querySelectorAll(".popup-btn .btn");
 
+orderBtns.forEach(orderBtn => {
 if (popup && popupClose && orderBtn) {
     orderBtn.addEventListener("click", (e) => {
         e.preventDefault();
@@ -52,4 +53,6 @@ if (popup && popupClose && orderBtn) {
         }
     });
 }
+});
+
 
