@@ -7,6 +7,14 @@
       "app.css"
     ]
   },
+  "resources/css/benefits.css": {
+    "file": "assets/benefits-D94uxv1y.css",
+    "src": "resources/css/benefits.css",
+    "isEntry": true,
+    "names": [
+      "benefits.css"
+    ]
+  },
   "resources/css/hero.css": {
     "file": "assets/hero-CgmdI3lQ.css",
     "src": "resources/css/hero.css",
@@ -16,7 +24,7 @@
     ]
   },
   "resources/css/results.css": {
-    "file": "assets/results-CEIXXyfA.css",
+    "file": "assets/results-CdxIazLt.css",
     "src": "resources/css/results.css",
     "isEntry": true,
     "names": [
