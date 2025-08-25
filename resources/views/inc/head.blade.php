@@ -28,6 +28,7 @@
             'resources/css/benefits.css',
             'resources/css/results.css',
             'resources/css/steps.css',
+            'resources/css/reviews.css',
             'resources/js/app.js'
             ])
     </head>

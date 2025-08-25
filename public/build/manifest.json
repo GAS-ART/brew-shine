@@ -31,6 +31,14 @@
       "results.css"
     ]
   },
+  "resources/css/reviews.css": {
+    "file": "assets/reviews-C8-2ETGC.css",
+    "src": "resources/css/reviews.css",
+    "isEntry": true,
+    "names": [
+      "reviews.css"
+    ]
+  },
   "resources/css/steps.css": {
     "file": "assets/steps-IwS42Eeq.css",
     "src": "resources/css/steps.css",
@@ -40,9 +48,12 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-CDZCZ2mi.js",
+    "file": "assets/app-vBgjxs1N.js",
     "name": "app",
     "src": "resources/js/app.js",
-    "isEntry": true
+    "isEntry": true,
+    "css": [
+      "assets/app-CHnJsdj7.css"
+    ]
   }
 }
