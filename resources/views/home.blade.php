@@ -26,14 +26,15 @@
           <a href="#order" class="btn btn-gold">@lang('home.hero.button')</a>
 
           <div class="phone-block">
-            <div class="phone">
-              <span class="phone-icon">📞</span>
-              <a href="tel:@lang('contacts.phone1_href')">@lang('contacts.phone1')</a>
-            </div>
-            <div class="phone">
-              <span class="phone-icon">📞</span>
-              <a href="tel:@lang('contacts.phone2_href')">@lang('contacts.phone2')</a>
-            </div>
+           <a href="tel:@lang('contacts.phone1_href')" class="phone">
+                <i class="fas fa-phone phone-icon"></i>
+                <span>@lang('contacts.phone1')</span>
+            </a>
+
+            <a href="tel:@lang('contacts.phone2_href')" class="phone">
+                <i class="fas fa-phone phone-icon"></i>
+                <span>@lang('contacts.phone2')</span>
+            </a>
             <p class="consult">@lang('home.hero.consult')</p>
           </div>
         </div>

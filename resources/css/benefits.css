@@ -38,10 +38,30 @@
     transform: translateY(-5px);
 }
 
-.benefit-icon {
-    font-size: 2rem;
-    margin-right: 15px;
-    flex-shrink: 0;
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #d4af37;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.phone:hover {
+  color: #fff; /* текст становится белым при наведении */
+}
+
+.phone-icon {
+  color: #d4af37;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.phone:hover .phone-icon {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.8),
+               0 0 20px rgba(212, 175, 55, 0.6);
 }
 
 .benefit-item p {
