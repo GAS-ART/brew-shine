@@ -1,7 +1,7 @@
 /* Общие стили */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'DM Serif Text', serif;
     background-color: #111; /* Черный фон */
     color: #d4af37; /* Золотой цвет */
     display: flex;
