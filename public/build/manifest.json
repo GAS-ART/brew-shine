@@ -15,12 +15,28 @@
       "benefits.css"
     ]
   },
+  "resources/css/cta.css": {
+    "file": "assets/cta-C_sNGe9g.css",
+    "src": "resources/css/cta.css",
+    "isEntry": true,
+    "names": [
+      "cta.css"
+    ]
+  },
   "resources/css/hero.css": {
     "file": "assets/hero-0rvSmyCR.css",
     "src": "resources/css/hero.css",
     "isEntry": true,
     "names": [
       "hero.css"
+    ]
+  },
+  "resources/css/prices.css": {
+    "file": "assets/prices-Dw1Z1OqA.css",
+    "src": "resources/css/prices.css",
+    "isEntry": true,
+    "names": [
+      "prices.css"
     ]
   },
   "resources/css/results.css": {

@@ -275,6 +275,64 @@
   </div>
 </section>
 
+<section class="prices">
+  <div class="container">
+    <h2 class="section-title">Наши цены</h2>
+
+    <div class="price-grid">
+      <div class="price-card">
+        <h3>Диван</h3>
+        <p class="price">от 300 лей</p>
+      </div>
+
+      <div class="price-card">
+        <h3>Кресло</h3>
+        <p class="price">от 150 лей</p>
+      </div>
+
+      <div class="price-card">
+        <h3>Матрас (1 сторона)</h3>
+        <p class="price">от 250 лей</p>
+      </div>
+    </div>
+
+    <div class="price-action popup-btn">
+      <a href="#order" class="btn btn-gold">Узнать точную стоимость</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="cta-overlay">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Закажите химчистку мебели прямо сейчас</h2>
+        <p class="cta-subtitle">Приедем сегодня. Работаем по всему Кишинёву.</p>
+
+        <!-- Кнопка звонка -->
+        <div class="cta-buttons single">
+          <a href="tel:@lang('contacts.phone1_href')" class="btn-gold">Позвонить</a>
+        </div>
+
+        <!-- Кнопки мессенджеров -->
+        <div class="cta-buttons messengers">
+          <a href="viber://chat?number=%2B373XXXXXXXX" class="btn-messenger">
+            <i class="fab fa-viber"></i> Viber
+          </a>
+
+          <a href="https://wa.me/373XXXXXXXX" target="_blank" class="btn-messenger">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+
+          <a href="https://t.me/username" target="_blank" class="btn-messenger">
+            <i class="fab fa-telegram-plane"></i> Telegram
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 @endsection
