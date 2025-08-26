@@ -1,20 +1,27 @@
 .hero {
   background: #111 url("../img/bg-texture.png") repeat;
   color: #d4af37;
-  padding: 60px 0;
+  padding: 0px 0; /* больше воздуха сверху и снизу */
   text-align: center;
+  min-height: 100vh; /* растягиваем на высоту экрана */
+  display: flex;
+  align-items: center; /* выравнивание по центру */
 }
 
 .hero h1 {
-  font-size: 28px;
+  font-size: 48px;  /* крупный заголовок */
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 .hero .subtitle {
-  font-size: 18px;
+  font-size: 22px;
   color: #ccc;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-actions {
@@ -22,37 +29,41 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px; /* больше расстояние между фото и кнопками */
+  margin-top: 40px;
 }
 
 .hero-image {
-  width: 260px;
-  border-radius: 12px;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+  width: 760px; /* увеличиваем картинку */
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
 }
 
 .hero-buttons {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 20px;
-  max-width: 320px;
+  gap: 25px;
+  max-width: 360px;
 }
 
 .btn-gold {
   background-color: #d4af37;
   color: #000;
-  padding: 14px 24px;
-  border-radius: 8px;
+  padding: 16px 28px;
+  border-radius: 10px;
   text-decoration: none;
   font-weight: 700;
-  font-size: 16px;
-  transition: background 0.3s;
+  font-size: 18px;
+  transition: background 0.3s, transform 0.3s;
 }
 
 .btn-gold:hover {
   background-color: #fff;
   color: #000;
+  transform: scale(1.05);
 }
 
 .phone-block {
@@ -60,11 +71,11 @@
 }
 
 .phone {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
 }
 
 .phone a {
@@ -77,24 +88,33 @@
 }
 
 .consult {
-  font-size: 14px;
+  font-size: 16px;
   color: #aaa;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 
 /* --- Адаптив --- */
 @media (max-width: 768px) {
   .hero {
-    padding: 120px 20px 15px 20px;
+    padding: 100px 20px 40px;
+    min-height: auto; /* убираем 100vh на мобильных */
   }
 
   .hero h1 {
-    font-size: 22px;
+    font-size: 32px;
+  }
+
+  .hero .subtitle {
+    font-size: 18px;
   }
 
   .hero-actions {
     flex-direction: column;
-    gap: 24px;
+    gap: 30px;
+  }
+
+  .hero-image {
+    width: 260px;
   }
 
   .hero-buttons {
