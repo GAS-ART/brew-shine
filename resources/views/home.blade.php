@@ -49,28 +49,29 @@
 
         <div class="benefits-grid">
             <div class="benefit-item">
-                <span class="benefit-icon">🧼</span>
+                <span class="benefit-icon"><i class="fas fa-soap"></i></span>
                 <p>@lang('home.benefits.items.1')</p>
             </div>
             <div class="benefit-item">
-                <span class="benefit-icon">🧴</span>
+                <span class="benefit-icon"><i class="fas fa-spray-can"></i></span>
                 <p>@lang('home.benefits.items.2')</p>
             </div>
             <div class="benefit-item">
-                <span class="benefit-icon">⏱</span>
+                <span class="benefit-icon"><i class="fas fa-clock"></i></span>
                 <p>@lang('home.benefits.items.3')</p>
             </div>
             <div class="benefit-item">
-                <span class="benefit-icon">💯</span>
+                <span class="benefit-icon"><i class="fas fa-star"></i></span>
                 <p>@lang('home.benefits.items.4')</p>
             </div>
             <div class="benefit-item">
-                <span class="benefit-icon">🚗</span>
+                <span class="benefit-icon"><i class="fas fa-truck"></i></span>
                 <p>@lang('home.benefits.items.5')</p>
             </div>
         </div>
     </div>
 </section>
+
 
 
 <section class="results">

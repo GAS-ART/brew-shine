@@ -51,6 +51,20 @@
     color: #eee;
 }
 
+.benefit-icon {
+    font-size: 2rem;
+    margin-right: 15px;
+    flex-shrink: 0;
+    color: #d4af37; /* золотой цвет */
+}
+
+.benefit-item:hover .benefit-icon {
+    text-shadow: 0 0 12px rgba(212, 175, 55, 0.8),
+                 0 0 24px rgba(212, 175, 55, 0.6);
+    transition: color 0.3s ease;
+}
+
+
 /* 📱 Мобильные */
 @media (max-width: 768px) {
     .benefits {
