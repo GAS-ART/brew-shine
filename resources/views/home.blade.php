@@ -166,70 +166,111 @@
 </section>
 
 <section class="reviews">
-    <div class="container">
-        <h2 class="reviews-title">Отзывы о нашей химчистке мебели в Кишинёве</h2>
+  <h2>Отзывы о нашей химчистке мебели в Кишинёве</h2>
 
-        <!-- Slider main container -->
-        <div class="swiper reviews-slider">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
+  <div class="reviews-wrapper">
+    <!-- Левая стрелка -->
+    <div class="swiper-button-prev"></div>
 
-                <!-- Slides -->
-                <div class="swiper-slide review-item">
-                    <p>«После чистки диван выглядит как новый, рекомендую всем»</p>
-                    <span>— Елена, сектор Чеканы</span>
-                </div>
-
-                <div class="swiper-slide review-item">
-                    <p>«Приехали в тот же день, всё сделали аккуратно и быстро»</p>
-                    <span>— Виталий, Ботаника</span>
-                </div>
-
-                <div class="swiper-slide review-item">
-                    <p>«Удалили старые пятна, которые я не могла вывести годами»</p>
-                    <span>— Марина, Рышкановка</span>
-                </div>
-
-                <div class="swiper-slide review-item">
-                    <p>«Очень вежливые мастера, всё объяснили и сделали отлично»</p>
-                    <span>— Андрей, Центр</span>
-                </div>
-
-                <div class="swiper-slide review-item">
-                    <p>«Химчистка прошла быстро, запахов никаких не осталось»</p>
-                    <span>— Светлана, Буюканы</span>
-                </div>
-
-                <div class="swiper-slide review-item">
-                    <p>«Рекомендую, цена и качество полностью соответствуют»</p>
-                    <span>— Николай, Телецентр</span>
-                </div>
-
-                <div class="swiper-slide review-item">
-                    <p>«Диван после детей и животных снова как новый»</p>
-                    <span>— Ольга, Скулянка</span>
-                </div>
-
-                <div class="swiper-slide review-item">
-                    <p>«Мастер приехал вовремя, работа заняла меньше часа»</p>
-                    <span>— Сергей, Дурлешты</span>
-                </div>
-
-                <div class="swiper-slide review-item">
-                    <p>«Химчистка помогла убрать неприятный запах, очень довольна»</p>
-                    <span>— Анна, Ботаника</span>
-                </div>
-
+    <!-- Слайдер -->
+    <div class="reviews-slider swiper">
+      <div class="swiper-wrapper">
+        <!-- Слайд -->
+        <div class="swiper-slide review-card">
+          <div class="review-header">
+            <img src="/img/reviews/elena.jpg" alt="Елена">
+            <div>
+              <h3>Елена</h3>
+              <span>сектор Чеканы</span>
             </div>
-
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+          </div>
+          <p>«После чистки диван выглядит как новый, рекомендую всем»</p>
         </div>
+
+        <div class="swiper-slide review-card">
+          <div class="review-header">
+            <img src="/img/reviews/vitalii.jpg" alt="Виталий">
+            <div>
+              <h3>Виталий</h3>
+              <span>Ботаника</span>
+            </div>
+          </div>
+          <p>«Приехали в тот же день, всё сделали аккуратно и быстро»</p>
+        </div>
+
+         <div class="swiper-slide review-card">
+          <div class="review-header">
+            <img src="/img/reviews/vitalii.jpg" alt="Виталий">
+            <div>
+              <h3>Виталий</h3>
+              <span>Ботаника</span>
+            </div>
+          </div>
+          <p>«Приехали в тот же день, всё сделали аккуратно и быстро»</p>
+        </div>
+
+        <div class="swiper-slide review-card">
+          <div class="review-header">
+            <img src="/img/reviews/elena.jpg" alt="Елена">
+            <div>
+              <h3>Елена</h3>
+              <span>сектор Чеканы</span>
+            </div>
+          </div>
+          <p>«После чистки диван выглядит как новый, рекомендую всем»</p>
+        </div>
+
+        <div class="swiper-slide review-card">
+          <div class="review-header">
+            <img src="/img/reviews/elena.jpg" alt="Елена">
+            <div>
+              <h3>Елена</h3>
+              <span>сектор Чеканы</span>
+            </div>
+          </div>
+          <p>«После чистки диван выглядит как новый, рекомендую всем»</p>
+        </div>
+
+        <div class="swiper-slide review-card">
+          <div class="review-header">
+            <img src="/img/reviews/vitalii.jpg" alt="Виталий">
+            <div>
+              <h3>Виталий</h3>
+              <span>Ботаника</span>
+            </div>
+          </div>
+          <p>«Приехали в тот же день, всё сделали аккуратно и быстро»</p>
+        </div>
+
+         <div class="swiper-slide review-card">
+          <div class="review-header">
+            <img src="/img/reviews/vitalii.jpg" alt="Виталий">
+            <div>
+              <h3>Виталий</h3>
+              <span>Ботаника</span>
+            </div>
+          </div>
+          <p>«Приехали в тот же день, всё сделали аккуратно и быстро»</p>
+        </div>
+
+        <div class="swiper-slide review-card">
+          <div class="review-header">
+            <img src="/img/reviews/elena.jpg" alt="Елена">
+            <div>
+              <h3>Елена</h3>
+              <span>сектор Чеканы</span>
+            </div>
+          </div>
+          <p>«После чистки диван выглядит как новый, рекомендую всем»</p>
+        </div>
+
+        <!-- остальные слайды -->
+      </div>
     </div>
+
+    <!-- Правая стрелка -->
+    <div class="swiper-button-next"></div>
+  </div>
 </section>
 
 

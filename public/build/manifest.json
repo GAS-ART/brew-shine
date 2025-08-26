@@ -32,7 +32,7 @@
     ]
   },
   "resources/css/reviews.css": {
-    "file": "assets/reviews-C8-2ETGC.css",
+    "file": "assets/reviews-CwGjOhz-.css",
     "src": "resources/css/reviews.css",
     "isEntry": true,
     "names": [
@@ -48,12 +48,12 @@
     ]
   },
   "resources/js/app.js": {
-    "file": "assets/app-vBgjxs1N.js",
+    "file": "assets/app-L5Zi91MC.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,
     "css": [
-      "assets/app-CHnJsdj7.css"
+      "assets/app-BMD19QWe.css"
     ]
   }
 }
