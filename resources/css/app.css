@@ -41,7 +41,7 @@ main.page {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     align-items: center;
-    gap: 20px;
+    gap: 0px 20px;
 }
 
 .burger        { grid-column: 1; }
@@ -116,7 +116,7 @@ main.page {
 /* Off-canvas (по умолчанию скрыто справа) */
 .side-nav {
     position: fixed;
-    top: 15px;
+    top: 55px;
     right: -300px;
     width: 280px;
     max-width: 80%;
