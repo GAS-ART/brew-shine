@@ -21,7 +21,7 @@
         <!-- Логотип -->
         <div class="logo">
             <a href="/">
-                <img src="{{ asset('img/logo.jpg') }}" alt="Brew & Shine">
+                <img src="{{ asset('img/logo.png') }}" alt="Brew & Shine">
             </a>
         </div>
 
