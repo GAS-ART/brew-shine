@@ -102,7 +102,7 @@
 /* --- Адаптив --- */
 @media (max-width: 768px) {
   .hero {
-    padding: 100px 20px 40px;
+    padding: 140px 20px 40px;
     min-height: auto; /* убираем 100vh на мобильных */
   }
 

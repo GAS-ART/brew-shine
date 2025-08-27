@@ -173,8 +173,6 @@ main.page {
         justify-self: center; /* центрируем */
         margin-top: 10px;
     }
-
-    .logo img { height: 40px; }
 }
 
 /* Чтобы footer оставался внизу (если ещё не добавлено) */
