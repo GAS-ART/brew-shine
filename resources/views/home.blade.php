@@ -65,10 +65,10 @@
                 <span class="benefit-icon"><i class="fas fa-star"></i></span>
                 <p>@lang('home.benefits.items.4')</p>
             </div>
-            <div class="benefit-item">
+            {{--<div class="benefit-item">
                 <span class="benefit-icon"><i class="fas fa-truck"></i></span>
                 <p>@lang('home.benefits.items.5')</p>
-            </div>
+            </div>--}}
         </div>
     </div>
 </section>
