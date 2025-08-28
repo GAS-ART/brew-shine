@@ -13,7 +13,6 @@
         <div class="footer-socials">
             <a href="#">Facebook</a> |
             <a href="#">Instagram</a> |
-            <a href="#">WhatsApp</a> |
         </div>
     </div>
 </footer>
