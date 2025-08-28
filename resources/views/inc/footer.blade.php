@@ -5,9 +5,9 @@
 
         <div class="footer-contacts">
             <p>📍 Адрес: Кишинёв, Молдова</p>
-            <p>📞 Телефон: <a href="tel:+37360254815">+373 (060) 254-815</a> |
-               <a href="tel:+373078785925">+373 (078) 785-925</a></p>
-            <p>📧 Email: <a href="mailto:klin@brew-shine.net">klin@brew-shine.net</a></p>
+            <p>📞 Телефон: <a href="tel:@lang('contacts.phone1_href')">@lang('contacts.phone1')</a> |
+               <a href="tel:@lang('contacts.phone2_href')">@lang('contacts.phone2')</a></p>
+            <p>📧 Email: <a href="@lang('contacts.email')">@lang('contacts.email')</a></p>
         </div>
 
         <div class="footer-socials">
