@@ -14,7 +14,6 @@
             <a href="#">Facebook</a> |
             <a href="#">Instagram</a> |
             <a href="#">WhatsApp</a> |
-            <a href="#">Tiktok</a>
         </div>
     </div>
 </footer>
