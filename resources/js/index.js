@@ -97,3 +97,18 @@ document.querySelectorAll('.compare').forEach(compare => {
 });
 
 
+const heroConsalt = document.querySelector('.hero .consult');
+const heroBtn = document.querySelector('.hero-actions .btn');
+
+function setBtnWidth() {
+  if (heroConsalt && heroBtn) {
+    const styles = getComputedStyle(heroBtn);
+    heroBtn.style.width =
+    (heroConsalt.offsetWidth
+     - parseFloat(styles.paddingLeft)
+     - parseFloat(styles.paddingRight)) + 'px';
+  }
+}
+
+window.addEventListener('resize', setBtnWidth);
+setBtnWidth();
