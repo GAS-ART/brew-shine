@@ -73,8 +73,6 @@
     </div>
 </section>
 
-
-
 <section class="results">
     <div class="container">
         <h2 class="results-title">@lang('home.results.title')</h2>
@@ -333,15 +331,15 @@
 
         <!-- Кнопки мессенджеров -->
         <div class="cta-buttons messengers">
-          <a href="viber://chat?number=%2B373XXXXXXXX" class="btn-messenger">
+          <a href="@lang('contacts.viber')" class="btn-messenger">
             <i class="fab fa-viber"></i> Viber
           </a>
 
-          <a href="https://wa.me/373XXXXXXXX" target="_blank" class="btn-messenger">
+          <a href="@lang('contacts.whatsup')" target="_blank" class="btn-messenger">
             <i class="fab fa-whatsapp"></i> WhatsApp
           </a>
 
-          <a href="https://t.me/username" target="_blank" class="btn-messenger">
+          <a href="@lang('contacts.tg')" target="_blank" class="btn-messenger">
             <i class="fab fa-telegram-plane"></i> Telegram
           </a>
         </div>
@@ -349,8 +347,6 @@
     </div>
   </div>
 </section>
-
-
 
 @endsection
 
