@@ -83,8 +83,8 @@
             <!-- Один элемент (до/после) -->
             <div class="compare-item">
                 <div class="compare">
-                    <img src="img/results/before1.jpg" alt="Диван до чистки" class="compare-before">
-                    <img src="img/results/after1.jpg" alt="Диван после чистки" class="compare-after">
+                    <img src="img/results/1_before.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/1_after.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
                 <p class="compare-caption">@lang('home.results.captions.1')</p>
@@ -92,18 +92,17 @@
 
             <div class="compare-item">
                 <div class="compare">
-                    <img src="img/results/before2.jpg" alt="Диван до чистки" class="compare-before">
-                    <img src="img/results/after2.jpg" alt="Диван после чистки" class="compare-after">
+                    <img src="img/results/2_before.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/2_after.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
                 <p class="compare-caption">@lang('home.results.captions.1')</p>
             </div>
 
-
-            <div class="compare-item">
+           <div class="compare-item">
                 <div class="compare">
-                    <img src="img/results/before1.jpg" alt="Диван до чистки" class="compare-before">
-                    <img src="img/results/after1.jpg" alt="Диван после чистки" class="compare-after">
+                    <img src="img/results/3_before.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/3_after.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
                 <p class="compare-caption">@lang('home.results.captions.1')</p>
@@ -111,8 +110,26 @@
 
             <div class="compare-item">
                 <div class="compare">
-                    <img src="img/results/before2.jpg" alt="Диван до чистки" class="compare-before">
-                    <img src="img/results/after2.jpg" alt="Диван после чистки" class="compare-after">
+                    <img src="img/results/4_before.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/4_after.jpg" alt="Диван после чистки" class="compare-after">
+                    <input type="range" min="0" max="100" value="50" class="compare-slider">
+                </div>
+                <p class="compare-caption">@lang('home.results.captions.1')</p>
+            </div>
+
+            <div class="compare-item">
+                <div class="compare">
+                    <img src="img/results/5_before.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/5_after.jpg" alt="Диван после чистки" class="compare-after">
+                    <input type="range" min="0" max="100" value="50" class="compare-slider">
+                </div>
+                <p class="compare-caption">@lang('home.results.captions.1')</p>
+            </div>
+
+            <div class="compare-item">
+                <div class="compare">
+                    <img src="img/results/6_before.jpg" alt="Диван до чистки" class="compare-before">
+                    <img src="img/results/6_after.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
                 <p class="compare-caption">@lang('home.results.captions.1')</p>
