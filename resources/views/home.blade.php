@@ -183,7 +183,7 @@
 </section>
 
 <section class="reviews">
-  <h2>Отзывы о нашей химчистке мебели в Кишинёве</h2>
+  <h2>@lang('home.reviews.title')</h2>
 
   <div class="reviews-wrapper">
     <!-- Левая стрелка -->
@@ -195,92 +195,69 @@
         <!-- Слайд -->
         <div class="swiper-slide review-card">
           <div class="review-header">
-            <img src="/img/reviews/elena.jpg" alt="Елена">
+            <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.1.name')">
             <div>
-              <h3>Елена</h3>
-              <span>сектор Чеканы</span>
+              <h3>@lang('home.reviews.items.1.name')</h3>
+              <span>@lang('home.reviews.items.1.place')</span>
             </div>
           </div>
-          <p>«После чистки диван выглядит как новый, рекомендую всем»</p>
+          <p>@lang('home.reviews.items.1.text')</p>
         </div>
 
         <div class="swiper-slide review-card">
           <div class="review-header">
-            <img src="/img/reviews/vitalii.jpg" alt="Виталий">
+            <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.2.name')">
             <div>
-              <h3>Виталий</h3>
-              <span>Ботаника</span>
+              <h3>@lang('home.reviews.items.2.name')</h3>
+              <span>@lang('home.reviews.items.2.place')</span>
             </div>
           </div>
-          <p>«Приехали в тот же день, всё сделали аккуратно и быстро»</p>
+          <p>@lang('home.reviews.items.2.text')</p>
         </div>
 
-         <div class="swiper-slide review-card">
-          <div class="review-header">
-            <img src="/img/reviews/vitalii.jpg" alt="Виталий">
-            <div>
-              <h3>Виталий</h3>
-              <span>Ботаника</span>
-            </div>
-          </div>
-          <p>«Приехали в тот же день, всё сделали аккуратно и быстро»</p>
-        </div>
+<div class="swiper-slide review-card">
+  <div class="review-header">
+    <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.3.name')">
+    <div>
+      <h3>@lang('home.reviews.items.3.name')</h3>
+      <span>@lang('home.reviews.items.3.place')</span>
+    </div>
+  </div>
+  <p>@lang('home.reviews.items.3.text')</p>
+</div>
 
-        <div class="swiper-slide review-card">
-          <div class="review-header">
-            <img src="/img/reviews/elena.jpg" alt="Елена">
-            <div>
-              <h3>Елена</h3>
-              <span>сектор Чеканы</span>
-            </div>
-          </div>
-          <p>«После чистки диван выглядит как новый, рекомендую всем»</p>
-        </div>
+<div class="swiper-slide review-card">
+  <div class="review-header">
+    <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.4.name')">
+    <div>
+      <h3>@lang('home.reviews.items.4.name')</h3>
+      <span>@lang('home.reviews.items.4.place')</span>
+    </div>
+  </div>
+  <p>@lang('home.reviews.items.4.text')</p>
+</div>
 
-        <div class="swiper-slide review-card">
-          <div class="review-header">
-            <img src="/img/reviews/elena.jpg" alt="Елена">
-            <div>
-              <h3>Елена</h3>
-              <span>сектор Чеканы</span>
-            </div>
-          </div>
-          <p>«После чистки диван выглядит как новый, рекомендую всем»</p>
-        </div>
+<div class="swiper-slide review-card">
+  <div class="review-header">
+    <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.5.name')">
+    <div>
+      <h3>@lang('home.reviews.items.5.name')</h3>
+      <span>@lang('home.reviews.items.5.place')</span>
+    </div>
+  </div>
+  <p>@lang('home.reviews.items.5.text')</p>
+</div>
 
-        <div class="swiper-slide review-card">
-          <div class="review-header">
-            <img src="/img/reviews/vitalii.jpg" alt="Виталий">
-            <div>
-              <h3>Виталий</h3>
-              <span>Ботаника</span>
-            </div>
-          </div>
-          <p>«Приехали в тот же день, всё сделали аккуратно и быстро»</p>
-        </div>
-
-         <div class="swiper-slide review-card">
-          <div class="review-header">
-            <img src="/img/reviews/vitalii.jpg" alt="Виталий">
-            <div>
-              <h3>Виталий</h3>
-              <span>Ботаника</span>
-            </div>
-          </div>
-          <p>«Приехали в тот же день, всё сделали аккуратно и быстро»</p>
-        </div>
-
-        <div class="swiper-slide review-card">
-          <div class="review-header">
-            <img src="/img/reviews/elena.jpg" alt="Елена">
-            <div>
-              <h3>Елена</h3>
-              <span>сектор Чеканы</span>
-            </div>
-          </div>
-          <p>«После чистки диван выглядит как новый, рекомендую всем»</p>
-        </div>
-
+<div class="swiper-slide review-card">
+  <div class="review-header">
+    <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.6.name')">
+    <div>
+      <h3>@lang('home.reviews.items.6.name')</h3>
+      <span>@lang('home.reviews.items.6.place')</span>
+    </div>
+  </div>
+  <p>@lang('home.reviews.items.6.text')</p>
+</div>
         <!-- остальные слайды -->
       </div>
     </div>
