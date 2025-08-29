@@ -158,13 +158,14 @@ function setHeaderHeightVar() {
     const formData = new FormData(form);
     const lang = form.dataset.lang || 'ru'; // по умолчанию русский
     const t = messages[lang] || messages['ru'];
+    
 
     try {
       const response = await fetch(form.action, {
         method: form.method,
         headers: {
           'X-Requested-With': 'XMLHttpRequest',
-          'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').innerText
+          'X-CSRF-TOKEN': document.querySelector('[name="_token"]').value
         },
         body: formData
       });
