@@ -119,12 +119,13 @@
     margin-bottom: 30px;
   }
 
-  .btn-gold,
+  .cta .btn-gold,
   .btn-messenger {
     max-width: 300px;
     padding: 12px 20px;
     font-size: 16px;
   }
+  
 
   .cta-buttons {
     flex-direction: column;
@@ -135,4 +136,8 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .cta-buttons.single .btn-gold {
+  width:  260px;
+}
 }
