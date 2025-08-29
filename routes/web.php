@@ -10,3 +10,5 @@ Route::get('/locale/{locale}', [Controllers\ChangeLanguagesController::class, 'c
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/{locale}', [HomeController::class, 'index'])->name('home');
+
+Route::post('/send-main-form', [Controllers\sendController::class, 'submit'])->name('sendMainForm');
