@@ -189,6 +189,7 @@ function setHeaderHeightVar() {
       popupContent.innerHTML = `
         <div class="popup-message error">${t.error}</div>
       `;
+      console.error(error);
     }
   });
   }
