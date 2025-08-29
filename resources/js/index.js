@@ -164,7 +164,7 @@ function setHeaderHeightVar() {
         method: form.method,
         headers: {
           'X-Requested-With': 'XMLHttpRequest',
-          'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content
+          'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').innerText
         },
         body: formData
       });
