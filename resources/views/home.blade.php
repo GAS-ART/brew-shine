@@ -73,7 +73,7 @@
     </div>
 </section>
 
-<section class="results">
+<section id="results" class="results">
     <div class="container">
         <h2 class="results-title">@lang('home.results.title')</h2>
         
@@ -182,7 +182,7 @@
     </div>
 </section>
 
-<section class="reviews">
+<section id="reviews" class="reviews">
   <h2>@lang('home.reviews.title')</h2>
 
   <div class="reviews-wrapper">
@@ -215,59 +215,59 @@
           <p>@lang('home.reviews.items.2.text')</p>
         </div>
 
-<div class="swiper-slide review-card">
-  <div class="review-header">
-    <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.3.name')">
-    <div>
-      <h3>@lang('home.reviews.items.3.name')</h3>
-      <span>@lang('home.reviews.items.3.place')</span>
-    </div>
-  </div>
-  <p>@lang('home.reviews.items.3.text')</p>
-</div>
-
-<div class="swiper-slide review-card">
-  <div class="review-header">
-    <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.4.name')">
-    <div>
-      <h3>@lang('home.reviews.items.4.name')</h3>
-      <span>@lang('home.reviews.items.4.place')</span>
-    </div>
-  </div>
-  <p>@lang('home.reviews.items.4.text')</p>
-</div>
-
-<div class="swiper-slide review-card">
-  <div class="review-header">
-    <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.5.name')">
-    <div>
-      <h3>@lang('home.reviews.items.5.name')</h3>
-      <span>@lang('home.reviews.items.5.place')</span>
-    </div>
-  </div>
-  <p>@lang('home.reviews.items.5.text')</p>
-</div>
-
-<div class="swiper-slide review-card">
-  <div class="review-header">
-    <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.6.name')">
-    <div>
-      <h3>@lang('home.reviews.items.6.name')</h3>
-      <span>@lang('home.reviews.items.6.place')</span>
-    </div>
-  </div>
-  <p>@lang('home.reviews.items.6.text')</p>
-</div>
-        <!-- остальные слайды -->
+      <div class="swiper-slide review-card">
+        <div class="review-header">
+          <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.3.name')">
+          <div>
+            <h3>@lang('home.reviews.items.3.name')</h3>
+            <span>@lang('home.reviews.items.3.place')</span>
+          </div>
+        </div>
+        <p>@lang('home.reviews.items.3.text')</p>
       </div>
-    </div>
 
-    <!-- Правая стрелка -->
-    <div class="swiper-button-next"></div>
-  </div>
+      <div class="swiper-slide review-card">
+        <div class="review-header">
+          <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.4.name')">
+          <div>
+            <h3>@lang('home.reviews.items.4.name')</h3>
+            <span>@lang('home.reviews.items.4.place')</span>
+          </div>
+        </div>
+        <p>@lang('home.reviews.items.4.text')</p>
+      </div>
+
+      <div class="swiper-slide review-card">
+        <div class="review-header">
+          <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.5.name')">
+          <div>
+            <h3>@lang('home.reviews.items.5.name')</h3>
+            <span>@lang('home.reviews.items.5.place')</span>
+          </div>
+        </div>
+        <p>@lang('home.reviews.items.5.text')</p>
+      </div>
+
+      <div class="swiper-slide review-card">
+        <div class="review-header">
+          <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.6.name')">
+          <div>
+            <h3>@lang('home.reviews.items.6.name')</h3>
+            <span>@lang('home.reviews.items.6.place')</span>
+          </div>
+        </div>
+        <p>@lang('home.reviews.items.6.text')</p>
+      </div>
+              <!-- остальные слайды -->
+        </div>
+      </div>
+
+      <!-- Правая стрелка -->
+      <div class="swiper-button-next"></div>
+    </div>
 </section>
 
-<section class="prices">
+<section id="prices" class="prices">
   <div class="container">
     <h2 class="section-title">Наши цены</h2>
 

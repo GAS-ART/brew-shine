@@ -28,10 +28,10 @@
         <!-- Горизонтальное меню (ПК) -->
         <nav class="main-nav" id="mainNavDesktop" aria-label="Главное меню">
             <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Цены</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#reviews">@lang('header.menu.reviews')</a></li>
+                <li><a href="#results">@lang('header.menu.results')</a></li>
+                <li><a href="#prices">@lang('header.menu.price')</a></li>
+                <li><a href="#contacts">@lang('header.menu.contact')</a></li>
             </ul>
         </nav>
 
@@ -69,10 +69,10 @@
     <!-- Off-canvas меню (мобилки) -->
     <nav class="side-nav" id="sideNav" aria-label="Мобильное меню">
         <ul>
-            <li><a href="#">Главная</a></li>
-            <li><a href="#">Услуги</a></li>
-            <li><a href="#">Цены</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#reviews">@lang('header.menu.reviews')</a></li>
+            <li><a href="#results">@lang('header.menu.results')</a></li>
+            <li><a href="#prices">@lang('header.menu.price')</a></li>
+            <li><a href="#contacts">@lang('header.menu.contact')</a></li>
         </ul>
     </nav>
 </header>

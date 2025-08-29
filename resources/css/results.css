@@ -2,6 +2,7 @@
     background: #111;
     color: #d4af37;
     text-align: center;
+    scroll-margin-top: var(--header-height, 105px);
 }
 
 .results-title {

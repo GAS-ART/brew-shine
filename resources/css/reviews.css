@@ -3,6 +3,7 @@
   color: #fff;
   padding: 50px 20px;
   text-align: center;
+  scroll-margin-top: var(--header-height, 105px);
 }
 
 .reviews h2 {

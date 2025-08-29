@@ -110,5 +110,23 @@ function setBtnWidth() {
   }
 }
 
-window.addEventListener('resize', setBtnWidth);
 setBtnWidth();
+
+function setHeaderHeightVar() {
+    const header = document.querySelector('.site-header');
+    if (header) {
+      const height = header.offsetHeight;
+      document.documentElement.style.setProperty('--header-height', height + 'px');
+    }
+  }
+
+  // Запускаем при загрузке
+   window.addEventListener('load', () => {
+    setBtnWidth();
+    setHeaderHeightVar();
+  });
+
+   window.addEventListener('resize', () => {
+    setBtnWidth();
+    setHeaderHeightVar();
+  });

@@ -1,5 +1,5 @@
 @section('footer')
-<footer class="site-footer">
+<footer id="contacts" class="site-footer">
     <div class="container footer-inner">
         <p>© 2025 Химчистка мягкой мебели в Кишинёве. Все права защищены.</p>
 
