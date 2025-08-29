@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Mail;
 use App\Http\Requests\sendRequest;
 
-class sendController extends Controller {
+class SendController extends Controller {
 
     public function submit(sendRequest $req){
         $name = $req->input('name');
