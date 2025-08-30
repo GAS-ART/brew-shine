@@ -170,7 +170,10 @@ function setHeaderHeightVar() {
         body: formData
       });
 
-      if (!response.ok) throw new Error("Network error");
+      if (!response.ok) {
+        const data = await response.json();
+        console.log(data); 
+      }
 
       const result = await response.json();
 
