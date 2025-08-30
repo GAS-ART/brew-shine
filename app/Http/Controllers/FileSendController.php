@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Mail;
 use App\Http\Requests\sendRequest;
 
-class SendController extends Controller
+class FileSendController extends Controller
 {
     public function submit(sendRequest $req){
         $name = $req->input('name');

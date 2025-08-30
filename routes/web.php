@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\SendController;
+use App\Http\Controllers\FileSendController;
 
 
 // Группа маршрутов с префиксом языка
@@ -11,4 +11,4 @@ Route::get('/locale/{locale}', [Controllers\ChangeLanguagesController::class, 'c
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/{locale}', [HomeController::class, 'index'])->name('home');
 
-Route::post('/send-main-form', [SendController::class, 'submit'])->name('sendMainForm');
+Route::post('/send-main-form', [FileSendController::class, 'submit'])->name('sendMainForm');
