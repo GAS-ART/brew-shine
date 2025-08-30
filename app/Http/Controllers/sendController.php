@@ -7,8 +7,10 @@ use Mail;
 use App\Http\Requests\sendRequest;
 
 class SendController extends Controller {
+    
 
     public function submit(sendRequest $req){
+        dd($req);
         $name = $req->input('name');
         $phone = $req->input('phone');
         $message = $req->input('message');
