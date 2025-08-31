@@ -12,7 +12,7 @@ class FileSendController extends Controller
     try {
         $name = $req->input('name');
         $phone = $req->input('phone');
-        $text = $req->input('message'); // правильное имя поля
+        $text = $req->input('text'); // правильное имя поля
 
         Mail::send(['html' => 'mail'], [
             'name' => $name,
