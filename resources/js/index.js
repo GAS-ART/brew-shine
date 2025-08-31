@@ -141,7 +141,7 @@ function setHeaderHeightVar() {
     const inputElems = form.querySelectorAll('.error-input');
 
     inputElems.forEach(elem => elem.classList.remove('error-input'));
-    
+
     errorElems.forEach(elem => {
       elem.textContent = ''
       elem.classList.remove('visible');
@@ -151,16 +151,16 @@ function setHeaderHeightVar() {
   if (form) {
     const messages = {
     ru: {
-      success: "✅ Ваша заявка отправлена, мы свяжемся с Вами в ближайшее время",
-      error: "❌ Сбой при отправке данных, попробуйте еще раз или напишите нам в мессенджеры"
+      success: "Ваша заявка отправлена, мы свяжемся с Вами в ближайшее время",
+      error: "Сбой при отправке данных, попробуйте еще раз или напишите нам в мессенджеры"
     },
     ro: {
-      success: "✅ Cererea dvs. a fost trimisă, vă vom contacta în cel mai scurt timp",
-      error: "❌ Eroare la trimiterea datelor, încercați din nou sau scrieți-ne pe mesagerii"
+      success: "Cererea dvs. a fost trimisă, vă vom contacta în cel mai scurt timp",
+      error: "Eroare la trimiterea datelor, încercați din nou sau scrieți-ne pe mesagerii"
     },
     en: {
-      success: "✅ Your request has been sent, we will contact you shortly",
-      error: "❌ Failed to send data, please try again or message us via messengers"
+      success: "Your request has been sent, we will contact you shortly",
+      error: "Failed to send data, please try again or message us via messengers"
     }
   };
 

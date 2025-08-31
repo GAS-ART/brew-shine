@@ -13,5 +13,7 @@ return [
         'name_regex'    => 'Câmpul „Nume” nu poate conține cifre',
         'phone_regex'   => 'Formatul numărului de telefon nu este corect',
         'phone_required'=> 'Câmpul „Număr de telefon” nu este completat',
+        'text_max'    => 'Mesajul nu trebuie să depășească 1000 de caractere',
+        'text_string' => 'Mesajul trebuie să fie text',
     ],
 ];

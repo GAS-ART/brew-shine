@@ -13,5 +13,7 @@ return [
         'name_regex'    => 'The "Name" field cannot contain numbers',
         'phone_regex'   => 'Invalid phone number format',
         'phone_required'=> 'The "Phone Number" field is required',
+        'text_max'    => 'The message must not exceed 1000 characters',
+        'text_string' => 'The message must be text',
     ],
 ];

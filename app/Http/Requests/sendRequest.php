@@ -26,6 +26,7 @@ class sendRequest extends FormRequest
         return [
             'name'=>'required|min:2|max:80|regex:/^[^0-9]+$/',
             'phone'=>'required|regex:/^((\s*)?(\+)?)([- _():=+]?\d[- _():=+]?){10,12}(\s*)?$/',
+            'text'  => 'nullable|string|max:1000',
         ];
     }
 
@@ -38,6 +39,8 @@ class sendRequest extends FormRequest
             'name.regex'    => __('popup.error.name_regex'),
             'phone.regex'   => __('popup.error.phone_regex'),
             'phone.required'=> __('popup.error.phone_required'),
+            'text.max'        => __('popup.error.text_max'),
+            'text.string'     => __('popup.error.text_string'),
         ];
     }
 }

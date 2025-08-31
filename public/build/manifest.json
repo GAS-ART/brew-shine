@@ -63,8 +63,16 @@
       "steps.css"
     ]
   },
+  "resources/css/swal2.css": {
+    "file": "assets/swal2-BizOFoLw.css",
+    "src": "resources/css/swal2.css",
+    "isEntry": true,
+    "names": [
+      "swal2.css"
+    ]
+  },
   "resources/js/app.js": {
-    "file": "assets/app-BGCPAOBf.js",
+    "file": "assets/app-H8dVJH59.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true,

@@ -14,6 +14,7 @@ export default defineConfig({
                 'resources/css/reviews.css',
                 'resources/css/prices.css',
                 'resources/css/cta.css',
+                'resources/css/swal2.css',
                 'resources/js/app.js'],
             refresh: true,
         }),

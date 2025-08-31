@@ -1,0 +1,94 @@
+/* --- SweetAlert2 кастом --- */
+.swal2-popup {
+  background: #000 !important;          /* чёрный фон окна */
+  color: #d4af37 !important;            /* золотой текст */
+  border-radius: 12px !important;
+  padding: 20px !important;
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
+  font-family: 'DM Serif Text', serif;
+}
+
+.swal2-title {
+  color: #d4af37 !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}
+
+.swal2-html-container {
+  color: #fff !important;              /* текст сообщений белым */
+  font-size: 16px !important;
+  font-weight: 400;
+}
+
+/* Кнопки */
+.swal2-styled.swal2-confirm {
+  background-color: #d4af37 !important; /* золотая кнопка */
+  color: #000 !important;
+  font-weight: 700;
+  border-radius: 8px !important;
+  padding: 8px 18px !important;
+  transition: 0.3s;
+}
+
+.swal2-styled.swal2-confirm:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.swal2-styled.swal2-cancel {
+  background-color: transparent !important;
+  color: #d4af37 !important;
+  border: 1px solid #d4af37 !important;
+  border-radius: 8px !important;
+  padding: 8px 18px !important;
+  transition: 0.3s;
+}
+
+.swal2-styled.swal2-cancel:hover {
+  background-color: #d4af37 !important;
+  color: #000 !important;
+}
+
+/* Иконки */
+.swal2-icon.swal2-error {
+  border-color: #ff4d4f !important;
+  color: #ff4d4f !important;
+  box-shadow: 0 0 15px rgba(255, 77, 79, 0.5);
+}
+
+.swal2-icon.swal2-success {
+  border-color: #d4af37 !important;
+  color: #d4af37 !important;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+.swal2-icon.swal2-warning {
+  border-color: #ffa502 !important;
+  color: #ffa502 !important;
+  box-shadow: 0 0 15px rgba(255, 165, 2, 0.5);
+}
+
+/* Поля ввода */
+.swal2-input {
+  background: #111 !important;
+  border: 1px solid #444 !important;
+  color: #fff !important;
+  border-radius: 6px !important;
+  padding: 10px !important;
+}
+
+.swal2-input:focus {
+  border-color: #d4af37 !important;
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.8);
+  outline: none;
+}
+
+
+.swal2-icon.swal2-success [class^='swal2-success-line'] {
+  background-color: #d4af37 !important; /* линии галочки */
+}
+
+.swal2-icon.swal2-success .swal2-success-ring {
+  border: 4px solid rgba(212, 175, 55, 0.6) !important; /* кольцо */
+}
