@@ -32,12 +32,12 @@ class sendRequest extends FormRequest
     public function messages()
     {
         return [
-            'name.required' => "Не заполнено поле \"ВАШЕ ИМЯ\"",
-            'name.min' => "Поле \"ИМЯ\" должно иметь 2 или больше символов",
-            'name.max' => "Поле \"ИМЯ\" должно иметь не больше 80 символов",
-            'name.regex' => "Поле \"ИМЯ\" не может содержать цифры",
-            'phone.regex' => "Не верный формат номера телефона",
-            'phone.required' => "Не заполнено поле \"Номер телефона\"",
+            'name.required' => __('popup.error.name_required'),
+            'name.min'      => __('popup.error.name_min'),
+            'name.max'      => __('popup.error.name_max'),
+            'name.regex'    => __('popup.error.name_regex'),
+            'phone.regex'   => __('popup.error.phone_regex'),
+            'phone.required'=> __('popup.error.phone_required'),
         ];
     }
 }

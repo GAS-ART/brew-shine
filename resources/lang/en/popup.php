@@ -6,4 +6,12 @@ return [
     'phone' => 'Your phone number',
     'message' => 'Your message',
     'btn' => 'Order a consultation',
+    'error' => [
+        'name_required' => 'The "Your Name" field is required',
+        'name_min'      => 'The "Name" field must be at least 2 characters',
+        'name_max'      => 'The "Name" field may not be greater than 80 characters',
+        'name_regex'    => 'The "Name" field cannot contain numbers',
+        'phone_regex'   => 'Invalid phone number format',
+        'phone_required'=> 'The "Phone Number" field is required',
+    ],
 ];

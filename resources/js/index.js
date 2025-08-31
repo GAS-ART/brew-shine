@@ -1,5 +1,6 @@
 import 'swiper/css';
 import 'swiper/css/navigation';
+import Swal from 'sweetalert2';
 
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
@@ -173,26 +174,33 @@ function setHeaderHeightVar() {
       if (!response.ok) {
         const data = await response.json();
         console.log(data); 
+
+         
       }
 
       const result = await response.json();
 
       if (result.success) {
-        popupContent.innerHTML = `
-          <div class="popup-message success">${t.success}</div>
-        `;
-        // закрыть попап через 3 сек
-        setTimeout(() => {
-          document.getElementById('popup').style.display = 'none';
-        }, 3000);
+
+        popup.style.display = "none";
+
+        form.reset();
+
+        Swal.fire({
+          icon: 'success',
+          title: t.success,
+          showConfirmButton: false,
+        });
       } else {
         throw new Error("Server error");
       }
 
     } catch (error) {
-      popupContent.innerHTML = `
-        <div class="popup-message error">${t.error}</div>
-      `;
+      Swal.fire({
+          icon: 'error',
+          title: t.error,
+          showConfirmButton: false
+      });
       console.error(error);
     }
   });
