@@ -16,8 +16,8 @@ class FileSendController extends Controller
         $message->to('temoha1386@gmail.com')->subject('ЗАКАЗ ЗВОНКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
         });
         
-        return response()->json([
-            'success' => true
-        ]);
+        // return response()->json([
+        //     'success' => true
+        // ]);
     }
 }
