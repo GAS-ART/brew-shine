@@ -3,7 +3,7 @@
     <div class="popup-content">
         <button class="popup-close" id="popupClose">&times;</button>
         <h2>@lang('popup.title')</h2>
-        <form class="popup-form" method="POST" action="{{ route('sendMainForm') }}" data-lang="@lang('lang.current')">
+        <form class="popup-form" method="POST" action="{{ route('sendMainForm', ['locale' => app()->getLocale()]) }}" data-lang="@lang('lang.current')">
             @csrf
             <div class="form-group">
                 <input type="text" name="name" placeholder="@lang('popup.name')" required>

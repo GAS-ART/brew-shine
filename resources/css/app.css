@@ -265,6 +265,44 @@ main.page { flex:1; }
     color: #fff;
 }
 
+/* Стили для сообщения об ошибке в попапе */
+.popup .error.visible {
+  color: #ff4d4f;               /* ярко-красный цвет для ошибки */
+  font-size: 16px;
+  font-weight: 600;
+  animation: popup-error-show 0.3s ease;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+/* Анимация появления */
+@keyframes popup-error-show {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.error-input {
+  border: 2px solid #ff4d4f; /* красная рамка ошибки */
+  padding: 10px;
+  outline: none; /* убираем стандартное выделение */
+  transition: all 0.3s ease;
+  box-shadow: 0 0 8px rgba(255, 77, 79, 0.6); /* мягкое свечение */
+  margin-bottom: 5px;
+}
+
+/* Подсветка при фокусе */
+.error-input:focus {
+  border-color: #d4af37; /* золотой при фокусе */
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.8);
+}
+
+
 /* Мобильная адаптация */
 @media (max-width: 480px) {
     .popup-content {

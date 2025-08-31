@@ -135,7 +135,18 @@ function setHeaderHeightVar() {
 
   //Отправка формы
   const form = document.querySelector('.popup-form');
-  const popupContent = document.querySelector('.popup-content');
+
+  function clearErrors(form) {
+    const errorElems = form.querySelectorAll('.error');
+    const inputElems = form.querySelectorAll('.error-input');
+
+    inputElems.forEach(elem => elem.classList.remove('error-input'));
+    
+    errorElems.forEach(elem => {
+      elem.textContent = ''
+      elem.classList.remove('visible');
+    });
+  }
 
   if (form) {
     const messages = {
@@ -174,29 +185,34 @@ function setHeaderHeightVar() {
       if (response.ok) {
         
         popup.style.display = "none";
-
+        clearErrors(form)
         form.reset();
 
         Swal.fire({
           icon: 'success',
           title: t.success,
-          showConfirmButton: false,
+          showConfirmButton: true,
         });
          
       }else{
         const data = await response.json();
-        console.log(data);  
+        clearErrors(form)
+        for (const key in data.errors) {
+          const targetElem = form.querySelector(`[name="${key}"]`);
+          const errorElem = form.querySelector(`[name="${key}"]`).nextElementSibling;
+          if(targetElem) targetElem.classList.add('error-input');
+          if (errorElem) {
+            errorElem.textContent = data.errors[key][0];
+            errorElem.classList.add('visible');         }
+        }
       }
-
     } catch (error) {
       Swal.fire({
           icon: 'error',
           title: t.error,
-          showConfirmButton: false
+          showConfirmButton: true
       });
       console.error(error);
     }
   });
   }
-
-  

@@ -11,4 +11,9 @@ Route::get('/locale/{locale}', [Controllers\ChangeLanguagesController::class, 'c
 Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/{locale}', [HomeController::class, 'index'])->name('home');
 
-Route::post('/send-main-form', [FileSendController::class, 'submit'])->name('sendMainForm');
+//Route::post('/send-main-form', [FileSendController::class, 'submit'])->name('sendMainForm');
+
+Route::group(['prefix' => '{locale}', 'where' => ['locale' => 'ru|ro|en']], function () {
+    Route::post('/send-main-form', [FileSendController::class, 'submit'])
+        ->name('sendMainForm');
+});
