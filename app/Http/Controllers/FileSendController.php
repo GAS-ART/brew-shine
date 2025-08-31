@@ -15,5 +15,9 @@ class FileSendController extends Controller
         mail::send(['html' => 'mail'], ['name' => $name, 'phone' => $phone, 'text' => $text], function($message) {
         $message->to('temoha1386@gmail.com')->subject('ЗАКАЗ ЗВОНКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
         });
+        
+        return response()->json([
+            'success' => true
+        ]);
     }
 }
