@@ -133,7 +133,7 @@ function setHeaderHeightVar() {
 
 
   //Отправка формы
-  const form = null// document.querySelector('.popup-form');
+  const form =  document.querySelector('.popup-form');
   const popupContent = document.querySelector('.popup-content');
 
   if (form) {
