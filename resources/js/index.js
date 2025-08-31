@@ -171,17 +171,8 @@ function setHeaderHeightVar() {
         body: formData
       });
 
-      if (!response.ok) {
-        const data = await response.json();
-        console.log(data); 
-
-         
-      }
-
-      const result = await response.json();
-
-      if (result.success) {
-
+      if (response.ok) {
+        
         popup.style.display = "none";
 
         form.reset();
@@ -191,8 +182,10 @@ function setHeaderHeightVar() {
           title: t.success,
           showConfirmButton: false,
         });
-      } else {
-        throw new Error("Server error");
+         
+      }else{
+        const data = await response.json();
+        console.log(data);  
       }
 
     } catch (error) {
