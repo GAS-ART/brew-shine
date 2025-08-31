@@ -12,7 +12,7 @@
                 <input type="text" name="phone" placeholder="@lang('popup.phone')" required>
             </div>
             <div class="form-group">
-                <textarea name="message" placeholder="@lang('popup.message')"></textarea>
+                <textarea name="text" placeholder="@lang('popup.message')"></textarea>
             </div>
             <button type="submit" class="btn">@lang('popup.btn')</button>
         </form>

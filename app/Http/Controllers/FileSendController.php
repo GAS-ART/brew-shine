@@ -10,9 +10,9 @@ class FileSendController extends Controller
     public function submit(sendRequest $req){
         $name = $req->input('name');
         $phone = $req->input('phone');
-        $message = $req->input('message');
+        $text = $req->input('text');
         /*ОТПРАВКА ДАННЫХ ИЗ ФОРМЫ И ФАЙЛА НА ПОЧТУ*/
-        mail::send(['html' => 'mail'], ['name' => $name, 'phone' => $phone, 'message' => $message], function($message) {
+        mail::send(['html' => 'mail'], ['name' => $name, 'phone' => $phone, 'text' => $text], function($message) {
         $message->to('temoha1386@gmail.com')->subject('ЗАКАЗ ЗВОНКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
         });
     }
