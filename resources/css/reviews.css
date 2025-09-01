@@ -93,6 +93,11 @@
   transform: scale(1.1) !important;
 }
 
+.reviews-slider,
+.reviews-slider * {
+  user-select: none; /* запрет выделения текста */
+}
+
 @media (max-width: 600px) {
   .review-card .review-header {
   flex-direction: column;

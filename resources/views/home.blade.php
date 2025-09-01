@@ -195,7 +195,7 @@
         <!-- Слайд -->
         <div class="swiper-slide review-card">
           <div class="review-header">
-            <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.1.name')">
+            <img src="/img/reviews/1.jpg" alt="@lang('home.reviews.items.1.name')">
             <div>
               <h3>@lang('home.reviews.items.1.name')</h3>
               <span>@lang('home.reviews.items.1.place')</span>
@@ -206,7 +206,7 @@
 
         <div class="swiper-slide review-card">
           <div class="review-header">
-            <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.2.name')">
+            <img src="/img/reviews/2.jpg" alt="@lang('home.reviews.items.2.name')">
             <div>
               <h3>@lang('home.reviews.items.2.name')</h3>
               <span>@lang('home.reviews.items.2.place')</span>
@@ -217,7 +217,7 @@
 
       <div class="swiper-slide review-card">
         <div class="review-header">
-          <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.3.name')">
+          <img src="/img/reviews/3.jpg" alt="@lang('home.reviews.items.3.name')">
           <div>
             <h3>@lang('home.reviews.items.3.name')</h3>
             <span>@lang('home.reviews.items.3.place')</span>
@@ -228,7 +228,7 @@
 
       <div class="swiper-slide review-card">
         <div class="review-header">
-          <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.4.name')">
+          <img src="/img/reviews/4.jpg" alt="@lang('home.reviews.items.4.name')">
           <div>
             <h3>@lang('home.reviews.items.4.name')</h3>
             <span>@lang('home.reviews.items.4.place')</span>
@@ -239,7 +239,7 @@
 
       <div class="swiper-slide review-card">
         <div class="review-header">
-          <img src="/img/reviews/elena.jpg" alt="@lang('home.reviews.items.5.name')">
+          <img src="/img/reviews/5.jpg" alt="@lang('home.reviews.items.5.name')">
           <div>
             <h3>@lang('home.reviews.items.5.name')</h3>
             <span>@lang('home.reviews.items.5.place')</span>
@@ -250,7 +250,7 @@
 
       <div class="swiper-slide review-card">
         <div class="review-header">
-          <img src="/img/reviews/vitalii.jpg" alt="@lang('home.reviews.items.6.name')">
+          <img src="/img/reviews/6.jpg" alt="@lang('home.reviews.items.6.name')">
           <div>
             <h3>@lang('home.reviews.items.6.name')</h3>
             <span>@lang('home.reviews.items.6.place')</span>
