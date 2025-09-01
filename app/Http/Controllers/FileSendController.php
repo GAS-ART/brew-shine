@@ -19,7 +19,7 @@ class FileSendController extends Controller
             'phone' => $phone,
             'text' => $text
         ], function ($message) {
-            $message->to('temoha1386@gmail.com')
+            $message->to('zviktor26@gmail.com')
                 ->subject('ЗАКАЗ ЗВОНКА ИЗ ФОРМЫ ОБРАТНОЙ СВЯЗИ');
         });
 
