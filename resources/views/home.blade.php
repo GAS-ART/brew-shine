@@ -269,22 +269,27 @@
 
 <section id="prices" class="prices">
   <div class="container">
-    <h2 class="section-title">Наши цены</h2>
+    <h2 class="section-title">@lang('home.price.title')</h2>
 
     <div class="price-grid">
       <div class="price-card">
-        <h3>Диван</h3>
-        <p class="price">от 300 лей</p>
+        <h3>@lang('home.price.sofa.title')</h3>
+        <p class="price">@lang('home.price.sofa.text')</p>
       </div>
 
       <div class="price-card">
-        <h3>Кресло</h3>
-        <p class="price">от 150 лей</p>
+        <h3>@lang('home.price.armchair.title')</h3>
+        <p class="price">@lang('home.price.armchair.text')</p>
       </div>
 
       <div class="price-card">
-        <h3>Матрас (1 сторона)</h3>
-        <p class="price">от 250 лей</p>
+        <h3>@lang('home.price.mattress.title')</h3>
+        <p class="price">@lang('home.price.mattress.text')</p>
+      </div>
+
+      <div class="price-card">
+        <h3>@lang('home.price.chair.title')</h3>
+        <p class="price">@lang('home.price.chair.text')</p>
       </div>
     </div>
 

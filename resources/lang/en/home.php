@@ -77,5 +77,25 @@ return [
                         'text' => 'We ordered cleaning for our armchairs and sofa. Everything was perfect: they came the same day, finished in a couple of hours. Odors gone, fabric renewed — the furniture looks brand new!',
                         ],
                 ],
-        ]
+        ],
+         'price' => [
+                'title' => 'Our prices',
+                'sofa' => [
+                        'title' => 'Sofa',
+                        'text' => 'from 300 lei',
+                ],
+                'armchair' =>[
+                        'title' => 'Armchair',
+                        'text' => 'from 150 lei',
+                ],
+                'mattress' => [
+                        'title' => 'Mattress (1 side)',
+                        'text' => 'from 250 lei',
+                ],
+                'chair' => [
+                        'title' => 'Chair',
+                        'text' => 'from 80 lei',
+                ],
+                'check price' => 'Find out the exact cost',
+        ],
 ];

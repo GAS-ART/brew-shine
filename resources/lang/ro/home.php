@@ -79,5 +79,25 @@ return [
                         ],
                 ],
                 
-        ]
+        ],
+        'price' => [
+                'title' => 'Prețurile noastre',
+                'sofa' => [
+                        'title' => 'Canapea',
+                        'text' => 'de la 300 de lei',
+                ],
+                'armchair' => [
+                        'title' => 'Fotoliu',
+                        'text' => 'de la 150 de lei',
+                ],
+                'mattress' => [
+                        'title' => 'Saltea (1 față)',
+                        'text' => 'de la 250 de lei',
+                ],
+                'chair' => [
+                        'title' => 'Scaun (1 față)',
+                        'text' => 'de la 80 de lei',
+                ],
+                'check price' => 'Aflați prețul exact',
+        ],
 ];
