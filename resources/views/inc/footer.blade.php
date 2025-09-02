@@ -11,8 +11,8 @@
         </div>
 
         <div class="footer-socials">
-            <a href="#">Facebook</a> |
-            <a href="#">Instagram</a> |
+            <a href="https://www.facebook.com/brewshine25" target="_blank" rel="noopener">Facebook</a> |
+            <a href="https://www.instagram.com/brewshine25" target="_blank" rel="noopener">Instagram</a> |
         </div>
     </div>
 </footer>
