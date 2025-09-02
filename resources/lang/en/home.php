@@ -13,7 +13,12 @@ return [
         'results' => [
                 'title' => 'The result of our work<br>clean and fresh furniture in one visit',
                 'captions' => [
-                        '1' => 'Тут описание проблемы (например диван был залит кофе)'
+                        '1' => 'The sofa had many coffee stains as well as traces left by pets',
+                        '2' => 'Karaoke bar – many stains from drinks and food',
+                        '3' => 'The sofa had been in a damp environment for a long time and became moldy',
+                        '4' => 'Armchair in a fast-food place – traces of greasy food and dust',
+                        '5' => 'Traces of vomit and drink stains',
+                        '6' => 'Karaoke bar – many stains from drinks and food',
                 ],
         ],
         'benefits' => [

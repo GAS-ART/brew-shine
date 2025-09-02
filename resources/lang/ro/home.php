@@ -13,7 +13,12 @@ return [
         'results' => [
                 'title' => 'Rezultatul muncii noastre<br>mobilă curată și proaspătă într-o singură vizită',
                 'captions' => [
-                        '1' => 'Тут описание проблемы (например диван был залит кофе)'
+                        '1' => 'Pe canapea erau multe pete de cafea și urme lăsate de animale',
+                        '2' => 'Bar de karaoke – multe pete de băuturi și mâncare',
+                        '3' => 'Canapeaua a stat mult timp într-un spațiu umed și s-a acoperit cu mucegai',
+                        '4' => 'Fotoliu într-un local de tip fast-food – urme de mâncare grasă și praf',
+                        '5' => 'Urme de vomă și pete de băuturi',
+                        '6' => 'Bar de karaoke – multe pete de băuturi și mâncare',
                 ],
         ],
 

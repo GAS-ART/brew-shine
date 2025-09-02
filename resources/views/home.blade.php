@@ -94,7 +94,7 @@
                     <img src="img/results/2_after.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
-                <p class="compare-caption">@lang('home.results.captions.1')</p>
+                <p class="compare-caption">@lang('home.results.captions.2')</p>
             </div>
 
            <div class="compare-item">
@@ -103,7 +103,7 @@
                     <img src="img/results/3_after.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
-                <p class="compare-caption">@lang('home.results.captions.1')</p>
+                <p class="compare-caption">@lang('home.results.captions.3')</p>
             </div>
 
             <div class="compare-item">
@@ -112,7 +112,7 @@
                     <img src="img/results/4_after.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
-                <p class="compare-caption">@lang('home.results.captions.1')</p>
+                <p class="compare-caption">@lang('home.results.captions.4')</p>
             </div>
 
             <div class="compare-item">
@@ -121,7 +121,7 @@
                     <img src="img/results/5_after.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
-                <p class="compare-caption">@lang('home.results.captions.1')</p>
+                <p class="compare-caption">@lang('home.results.captions.5')</p>
             </div>
 
             <div class="compare-item">
@@ -130,7 +130,7 @@
                     <img src="img/results/6_after.jpg" alt="Диван после чистки" class="compare-after">
                     <input type="range" min="0" max="100" value="50" class="compare-slider">
                 </div>
-                <p class="compare-caption">@lang('home.results.captions.1')</p>
+                <p class="compare-caption">@lang('home.results.captions.6')</p>
             </div>
             
 
