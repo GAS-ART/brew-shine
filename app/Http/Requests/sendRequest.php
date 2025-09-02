@@ -25,7 +25,7 @@ class sendRequest extends FormRequest
     {
         return [
             'name'=>'required|min:2|max:80|regex:/^[^0-9]+$/',
-            'phone'=>'required|regex:/^((\s*)?(\+)?)([- _():=+]?\d[- _():=+]?){10,12}(\s*)?$/',
+            'phone'=>'required|regex:/^\+373\s\d{2}\s\d{3}-\d{3}$/',
             'text'  => 'nullable|string|max:1000',
         ];
     }

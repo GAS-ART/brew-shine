@@ -15,6 +15,7 @@
         "vite": "^7.0.4"
     },
     "dependencies": {
+        "imask": "^7.6.1",
         "sweetalert2": "^11.22.5",
         "swiper": "^11.2.10"
     }

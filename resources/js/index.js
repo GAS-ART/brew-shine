@@ -1,6 +1,7 @@
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Swal from 'sweetalert2';
+import IMask from 'imask';
 
 import Swiper from 'swiper';
 import { Navigation } from 'swiper/modules';
@@ -216,3 +217,13 @@ function setHeaderHeightVar() {
     }
   });
   }
+
+
+  const phoneInput = document.querySelector('input[name="phone"]');
+
+  
+if (phoneInput) {
+    IMask(phoneInput, {
+        mask: '+{373} 00 000-000',
+    });
+}

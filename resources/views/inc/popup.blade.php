@@ -10,7 +10,7 @@
                 <p class="error"></p>
             </div>
             <div class="form-group">
-                <input type="text" name="phone" placeholder="@lang('popup.phone')" required>
+                <input type="text" name="phone" placeholder="+{373}00-000-000" required>
                 <p class="error"></p>
             </div>
             <div class="form-group">
