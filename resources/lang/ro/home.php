@@ -98,6 +98,12 @@ return [
                         'title' => 'Scaun (1 față)',
                         'text' => 'de la 80 de lei',
                 ],
-                'check price' => 'Aflați prețul exact',
+                'check_price' => 'Aflați prețul exact',
+        ],
+
+        'cta' => [
+                'title' => 'Comandă curățarea mobilei chiar acum',
+                'subtitle' => 'Venim astăzi. Lucrăm în tot Chișinăul.',
+                'button' => 'Sună acum',
         ],
 ];

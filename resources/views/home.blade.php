@@ -293,7 +293,7 @@
     </div>
 
     <div class="price-action popup-btn">
-      <a href="#order" class="btn btn-gold">Узнать точную стоимость</a>
+      <a href="#order" class="btn btn-gold">@lang('home.price.check_price')</a>
     </div>
   </div>
 </section>
@@ -302,12 +302,12 @@
   <div class="cta-overlay">
     <div class="container">
       <div class="cta-content">
-        <h2>Закажите химчистку мебели прямо сейчас</h2>
-        <p class="cta-subtitle">Приедем сегодня. Работаем по всему Кишинёву.</p>
+        <h2>@lang('home.cta.title')</h2>
+        <p class="cta-subtitle">@lang('home.cta.subtitle')</p>
 
         <!-- Кнопка звонка -->
         <div class="cta-buttons single">
-          <a href="tel:@lang('contacts.phone1_href')" class="btn-gold">Позвонить</a>
+          <a href="tel:@lang('contacts.phone1_href')" class="btn-gold">@lang('home.cta.button')</a>
         </div>
 
         <!-- Кнопки мессенджеров -->

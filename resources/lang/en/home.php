@@ -95,7 +95,13 @@ return [
                 'chair' => [
                         'title' => 'Chair',
                         'text' => 'from 80 lei',
-                ],
-                'check price' => 'Find out the exact cost',
+                ],      
+                'check_price' => 'Find out the exact cost',
+        ],
+
+        'cta' => [
+                'title' => 'Order furniture cleaning right now',
+                'subtitle' => 'We\'ll come today. We work all over Chisinau.',
+                'button' => 'Call us',
         ],
 ];
