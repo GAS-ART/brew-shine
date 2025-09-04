@@ -10,6 +10,23 @@ return [
                 'consult' => 'Same-day service · free consultation',
         ],
 
+        'business' =>  [
+                'title' => 'Clean Furniture – Happy Guests for Your Business',
+                'subtitle' => "We professionally clean furniture in cafés, restaurants, and lounges.
+                Flexible schedule – even at night – without interrupting your business.",
+                'features' => [
+                'payment' => 'Any payment method (cash, card, invoice)',
+                'contract' => 'Work under contract with all necessary documents',
+                'offhours' => 'Cleaning during off-hours – minimal downtime',
+                'guarantee' => 'Guaranteed quality and fast service',
+                ],
+                'offer' => 'From coffee stains, sauces, and smoke odor – to fresh, clean furniture in just a few hours.',
+                'cta' => [
+                'call' => 'Call us',
+                'request' => 'Request a quote'
+                ],
+        ],
+
         'results' => [
                 'title' => 'The result of our work<br>clean and fresh furniture in one visit',
                 'captions' => [

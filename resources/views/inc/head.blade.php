@@ -30,6 +30,7 @@
          @vite([
             'resources/css/app.css', 
             'resources/css/hero.css',
+            'resources/css/business.css',
             'resources/css/benefits.css',
             'resources/css/results.css',
             'resources/css/steps.css',

@@ -15,6 +15,14 @@
       "benefits.css"
     ]
   },
+  "resources/css/business.css": {
+    "file": "assets/business-CW26xL2e.css",
+    "src": "resources/css/business.css",
+    "isEntry": true,
+    "names": [
+      "business.css"
+    ]
+  },
   "resources/css/cta.css": {
     "file": "assets/cta-BF7hR-ME.css",
     "src": "resources/css/cta.css",

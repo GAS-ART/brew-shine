@@ -10,6 +10,23 @@ return [
                 'consult' => 'Deplasare astăzi · consultație gratuită',
         ],
 
+        'business' =>  [
+                'title' => 'Mobilier Curat – Clienți Mulțumiți pentru Afacerea Dvs.',
+                'subtitle' => "Curățăm profesional mobilierul în cafenele, restaurante și lounge-uri.
+                Program flexibil – chiar și noaptea – fără a opri activitatea dvs.",
+                'features' => [
+                'payment' => 'Orice formă de plată (numerar, card, factură)',
+                'contract' => 'Lucrăm pe bază de contract, documente complete',
+                'offhours' => 'Curățare în afara orelor de lucru – timp minim de întrerupere',
+                'guarantee' => 'Garanție pentru calitate și rapiditate',
+                ],
+                'offer' => 'De la pete de cafea, sosuri și miros de fum – la mobilier curat și proaspăt în doar câteva ore.',
+                'cta' => [
+                'call' => 'Sună-ne',
+                'request' => 'Solicită ofertă'
+                ],
+        ],
+
         'results' => [
                 'title' => 'Rezultatul muncii noastre<br>mobilă curată și proaspătă într-o singură vizită',
                 'captions' => [

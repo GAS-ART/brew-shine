@@ -42,6 +42,52 @@
   </div>
 </section>
 
+<section class="business" id="business">
+  <div class="container">
+    <div class="business-inner">
+      <header class="business-header">
+        <h2>@lang('home.business.title')</h2>
+        <p class="business-subtitle">@lang('home.business.subtitle')</p>
+      </header>
+
+      <div class="business-features">
+        <div class="feature">
+          <i class="fas fa-money-bill-wave feature-icon" aria-hidden="true"></i>
+          <p class="feature-text">@lang('home.business.features.payment')</p>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-file-invoice feature-icon" aria-hidden="true"></i>
+          <p class="feature-text">@lang('home.business.features.contract')</p>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-clock feature-icon" aria-hidden="true"></i>
+          <p class="feature-text">@lang('home.business.features.offhours')</p>
+        </div>
+
+        <div class="feature">
+          <i class="fas fa-award feature-icon" aria-hidden="true"></i>
+          <p class="feature-text">@lang('home.business.features.guarantee')</p>
+        </div>
+      </div>
+
+      <div class="business-offer">
+        <p class="offer-text">@lang('home.business.offer')</p>
+      </div>
+
+      <div class="business-cta">
+        <a href="tel:@lang('contacts.phone1_href')" class="btn btn-gold">@lang('home.business.cta.call')</a>
+        <div class="popup-btn" style="display: inline-block;">
+          <a href="#order" class="btn btn-ghost popup-btn">@lang('home.business.cta.request')</a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="benefits">
     <div class="container">
         <h2 class="benefits-title">@lang('home.benefits.title')</h2>

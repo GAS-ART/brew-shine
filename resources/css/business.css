@@ -1,0 +1,262 @@
+/* --- Блок "Для бизнеса" --- */
+.business {
+  background: linear-gradient(180deg, rgba(17,17,17,0.95) 0%, rgba(17,17,17,0.85) 100%);
+  color: #fff;
+  padding: 80px 20px;
+}
+
+.business .business-inner {
+  text-align: center;
+}
+
+.business-header h2 {
+  color: #d4af37;
+  font-size: 32px;
+  margin: 0 0 12px;
+  font-weight: 700;
+}
+
+.business-subtitle {
+  color: #ddd;
+  font-size: 18px;
+  max-width: 900px;
+  margin: 0 auto 30px;
+  line-height: 1.4;
+}
+
+/* Фичи */
+.business-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  max-width: 1100px;
+  margin: 0 auto 28px;
+  align-items: start;
+}
+
+.feature {
+  background: #0f0f0f;
+  border-radius: 12px;
+  padding: 18px;
+  border: 1px solid #222;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+  transition: transform .28s ease, box-shadow .28s ease;
+  text-align: left;
+}
+
+.feature:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(212,175,55,0.18);
+}
+
+.feature-icon {
+  color: #d4af37;
+  font-size: 28px;
+  min-width: 36px;
+  line-height: 1;
+  margin-top: 2px;
+}
+
+.feature-text {
+  color: #eee;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+}
+
+/* Короткий оффер */
+.business-offer {
+  margin: 24px auto;
+  max-width: 900px;
+}
+
+.offer-text {
+  color: #ccc;
+  font-size: 16px;
+  line-height: 1.45;
+  font-style: italic;
+}
+
+/* CTA */
+.business-cta {
+  margin-top: 18px;
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: #000;
+  padding: 12px 26px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #d4af37;
+  padding: 12px 26px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid rgba(212,175,55,0.16);
+  transition: color .25s ease, box-shadow .25s ease, background .25s ease;
+}
+
+.btn-ghost:hover {
+  color: #fff;
+  box-shadow: 0 0 18px rgba(212,175,55,0.18);
+}
+
+/* --- Адаптив --- */
+@media (max-width: 1100px) {
+  .business-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .business {
+    padding: 40px 16px;
+  }
+  .business-header h2 {
+    font-size: 24px;
+  }
+  .business-features {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .feature {
+    flex-direction: row;
+    align-items: center;
+  }
+  .feature-icon { font-size: 22px; min-width: 34px; }
+  .offer-text { font-size: 15px; }
+  .btn-gold, .btn-ghost { width: 100%; max-width: 420px; justify-content: center; }
+}
+
+
+
+
+/* --- Выравниваем карточки по высоте --- */
+.business-features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  max-width: 1100px;
+  margin: 0 auto 28px;
+  /* Важно: делает все строки одинаковой высоты (ячейки будут растянуты) */
+  grid-auto-rows: 1fr;
+  align-items: stretch; /* растягиваем ячейки по высоте */
+}
+
+/* .feature теперь растягивается по высоте сетки и становится flex-контейнером */
+.feature {
+  display: flex;
+  flex-direction: row;     /* иконка + текст в одной строке (твой текущий вариант) */
+  align-items: flex-start;
+  gap: 12px;
+  padding: 18px;
+  border-radius: 12px;
+  background: #0f0f0f;
+  border: 1px solid #222;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+  transition: transform .28s ease, box-shadow .28s ease;
+  height: 100%;           /* ключ — занимать всю высоту ячейки */
+  box-sizing: border-box;
+}
+
+/* Если хочешь, чтобы текст вертикально центрировался, используем column внутри текстового блока */
+/* Делим содержимое: иконка фиксирована, текст — растягивается */
+.feature-icon {
+  color: #d4af37;
+  font-size: 28px;
+  min-width: 36px;
+  line-height: 1;
+  margin-top: 2px;
+  flex: 0 0 auto; /* не растягивать иконку */
+}
+
+/* Блок с текстом — растягивается по высоте карточки */
+.feature-text {
+  color: #eee;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* выравнивание по вертикали внутри карточки */
+  flex: 1 1 auto;           /* занимает всё доступное пространство */
+  min-height: 0;            /* важно для корректного переноса в flex + grid */
+}
+
+/* hover-эффект оставляем прежним */
+.feature:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(212,175,55,0.18);
+}
+
+/* --- Адаптив (как было ранее) --- */
+@media (max-width: 1100px) {
+  .business-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .business-features {
+    grid-template-columns: 1fr;
+  }
+  .feature {
+    flex-direction: row;
+    align-items: center;
+  }
+  .feature-icon { font-size: 22px; min-width: 34px; }
+  .feature-text { font-size: 15px; }
+}
+
+
+
+
+.btn.btn-ghost {
+  background: transparent;
+  color: #d4af37;
+  border: 2px solid rgba(212,175,55,0.16);
+  transition: color .25s ease, box-shadow .25s ease, background .25s ease, border-color .25s ease;
+}
+
+/* Этот селектор должен идти ПОСЛЕ правила .btn:hover в CSS */
+.btn.btn-ghost:hover,
+.btn.btn-ghost:focus {
+  /* запретим заливку белым (используем explicit background) */
+  background: transparent !important;
+  color: #fff; /* текст становится белым на тёмном фоне */
+  border-color: #d4af37; /* подчёркиваем золотой границей */
+  box-shadow: 0 0 18px rgba(212,175,55,0.18);
+  outline: none;
+}
+
+/* Для клавиатурного фокуса (доступность) */
+.btn.btn-ghost:focus-visible {
+  box-shadow: 0 0 20px rgba(212,175,55,0.24);
+  border-color: #d4af37;
+}
+
+/* Если хочешь инвертировать фон при ховере (золотая заливка и чёрный текст),
+   но чтобы это не ломало поведение .btn:hover, можно явно задать: */
+.btn.btn-ghost.invert-on-hover:hover {
+  background: #d4af37 !important;
+  color: #000 !important;
+  border-color: transparent !important;
+  box-shadow: 0 6px 18px rgba(212,175,55,0.25);
+}
